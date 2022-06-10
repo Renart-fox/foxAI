@@ -1,7 +1,7 @@
 name: verify-issues
 on:
   schedule:
-    - cron: '0 0 0 ? * SUN *'
+    - cron: '0 12 * * SUN'
 
 jobs:
   check-issues:
